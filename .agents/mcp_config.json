@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "oreilly": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://api.oreilly.com/api/search/v1/mcp"
+      ]
+    }
+  }
+}
