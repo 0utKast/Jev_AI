@@ -24,6 +24,20 @@ Todos los laboratorios están programados íntegramente con la biblioteca están
 
 ---
 
+## 🇬🇧 English Edition: Technical Book (PDF) & English Google Colab Notebooks
+
+* 📘 **[Jev & System One Architecture — English Technical Book (`book_jev_en/book.pdf`)](./book_jev_en/book.pdf)**: Editorial book edition in English featuring full Typst source code, O'Reilly bibliographical apparatus, and Google Flow artwork prompts ([`prompts_catalog_en.md`](./book_jev_en/prompts_images/prompts_catalog_en.md)).
+
+| # | English Practical Laboratory | GitHub Notebook (`notebooks_en/`) | Launch in Google Colab | Key Verified Telemetry |
+| :-: | :--- | :--- | :---: | :--- |
+| **01** | **Synchronous Fast Router** (<80 ms API Gateway) | [`01_fast_router_colab_en.ipynb`](./notebooks_en/01_fast_router_colab_en.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/0utKast/Jev_AI/blob/main/notebooks_en/01_fast_router_colab_en.ipynb) | **71.2 ms** P50 · **91.2%** cost savings · **0.0%** JSON error |
+| **02** | **Hybrid Escalation** (85% Confidence Gate) | [`02_hybrid_escalation_colab_en.ipynb`](./notebooks_en/02_hybrid_escalation_colab_en.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/0utKast/Jev_AI/blob/main/notebooks_en/02_hybrid_escalation_colab_en.ipynb) | **80%** System 1 offload · **72.2 ms** P50 · **82.3%** savings |
+| **03** | **Realtime API Ingress Guardrails** (DAN, PII, Toxicity) | [`03_realtime_guardrail_colab_en.ipynb`](./notebooks_en/03_realtime_guardrail_colab_en.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/0utKast/Jev_AI/blob/main/notebooks_en/03_realtime_guardrail_colab_en.ipynb) | **~73 ms** sync interception · **99%** DAN block · Zero TTFT penalty |
+| **04** | **Deterministic Agent Tool Dispatch & 2FA Gate** | [`04_tool_dispatch_colab_en.ipynb`](./notebooks_en/04_tool_dispatch_colab_en.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/0utKast/Jev_AI/blob/main/notebooks_en/04_tool_dispatch_colab_en.ipynb) | **0.0%** schema failure · **~71.5 ms** dispatch · Noul 2FA lock |
+| **05** | **1,000-Request Production Benchmark** (Jev vs. LLMs) | [`05_benchmark_eval_colab_en.ipynb`](./notebooks_en/05_benchmark_eval_colab_en.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/0utKast/Jev_AI/blob/main/notebooks_en/05_benchmark_eval_colab_en.ipynb) | **39.8x** P99 speedup (**75.6 ms**) · **100%** SLA <100 ms |
+
+---
+
 ## 📚 Materiales Complementarios y Guía Bibliográfica
 
 * 📕 **[Guía Bibliográfica y de Citas de Autoridad en PDF (`guia_bibliografica_jev_ai.pdf`)](./guia_bibliografica_jev_ai.pdf)**: Documento maquetado descargable con todas las obras técnicas de O'Reilly Learning, artículos fundacionales y trazabilidad por módulo.
